@@ -216,7 +216,7 @@ module.exports = {
       .setDescription(`Регистрация закроется  <t:${timestamp}:R>`)
       .addFields(fields)
       .setTimestamp(new Date())
-      .setThumbnail('https://cdn.discordapp.com/attachments/1217384927520358410/1248789674655354950/666c19310d7faf1e_2.png?ex=6664f183&is=6663a003&hm=002f97333ccbac40058e4dbb39afbc3186c372429c35c175077bae22be26398f&')
+      .setThumbnail('https://media.discordapp.net/attachments/1346806477800869898/1356664996997628085/bot.png?ex=67ed643c&is=67ec12bc&hm=437010e64024649ba8a6177c9a854bc4162289b62f98ed9da2ccdbd61b672375&=&format=webp&quality=lossless')
 
     await discrodChannel.send(`<@&${pingRoleId}>`);
     const message = await interaction.reply({ embeds: [embed], fetchReply: true });
