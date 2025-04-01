@@ -178,7 +178,7 @@ module.exports = {
 
   async execute(interaction) {
     const channel = interaction.options.getString('канал');
-    const timer = interaction.options.getInteger('таймер') || 20;
+    const timer = interaction.options.getNumber('таймер') || 20;
     const trackUsers = interaction.options.getBoolean('обновить_посещаемость') ?? true;
     const editPriorUserList = interaction.options.getBoolean('обновить_неприоритет') ?? true;
 
