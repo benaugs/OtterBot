@@ -24,7 +24,7 @@
   },
   "scripts": {
     "dev": "npx tsx ./src/main.ts",
-    "start": "node build/src/main.js",
+    "start": "ts-node src/main.ts",
     "clean": "rimraf coverage build tmp",
     "prebuild": "npm run lint",
     "build": "tsc -p tsconfig.json",
